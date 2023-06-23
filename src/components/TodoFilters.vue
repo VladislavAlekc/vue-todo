@@ -7,7 +7,7 @@
 </template>
 <script lang="ts">
 import { defineComponent, type PropType } from 'vue';
-import {Filtr} from "../types/Filter.ts";
+import type {Filtr} from "../types/Filter";
 interface State {
   filters: Filtr[]
 }

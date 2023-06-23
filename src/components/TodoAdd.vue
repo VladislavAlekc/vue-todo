@@ -49,9 +49,9 @@ export default defineComponent({
       }) 
       this.todoText = ''
     },
-    editTodo(){
-      this.$emit("editTodo", )
-    }
+    // editTodo(){
+    //   this.$emit("editTodo", )
+    // }
   },
   emits: {
     addEvent: (todo: Todo) => todo,
